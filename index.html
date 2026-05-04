@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,7 @@
         .header{
             position: relative;
             padding: 0px;
-            background-color: #35bcbf;
+            background-color: #975a5e;
             color: #fff;
             padding: 20px;
             box-shadow: 5px 2px 5px rgba(0,0,0,0.3);
@@ -28,7 +27,7 @@
             background-color: #35bcbf;
         }
         .header:hover{
-            background-color: #35bcbf;
+            background-color: #453953;
             color: #fff;
             padding: 20px;
             box-shadow: 5px 2px 5px rgba(0,0,0,0.3);
@@ -46,7 +45,7 @@
         h1:hover{
             transform: scale(1.03);
             transition: transform .3s ease-out;
-            background-color: #93e4c1;
+            background-color: #f3cba5;
             color:#393e46;
             cursor: pointer;
         }
@@ -64,7 +63,7 @@
             flex-wrap: wrap; 
             justify-content: center;  /* Resimleri ortada toplar */
             padding: 20px;
-            gap: 50px; 
+            gap: 40px; 
         }
         .Photos{
             height: auto;             
@@ -87,6 +86,28 @@
             transition: transform .3s ease-out;
             box-shadow: 0 12px 24px rgba(0,0,0,0.5); /* Hover olunca gölge derinleşir */
         }
+        .Paragraph{
+            background-color: #f3cba5;
+            border: 10px;
+            padding:10px;
+            border-radius: 6px;;
+        }
+        .container{
+            padding: 20px;
+            border: 4px solid rgb(232, 135, 135);
+            border-radius: 7px;;
+        }
+        .BaslikGrubu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .YaziBasligi{
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+        }
         .NASA{
             display: flex;
             align-items: center;
@@ -98,7 +119,7 @@
             margin-top: 10px;;
             text-align: center;
             padding: 18px;
-            background-color: #35bcbf;
+            background-color: #25161b;
             color: #fff;
             border-radius: 10px;
         }
@@ -106,6 +127,7 @@
             border-radius: 10px;
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     
@@ -140,8 +162,26 @@
             </div>
      
         </div>
+        <div class="Paragraph">
+            <div class="BaslikGrubu">
+                <i class="bi bi-align-start"></i>
+            <h2 class="YaziBasligi">Details of Space Launch System</h2>
+            <i class="bi bi-align-end"></i>
+
+            </div>
+            
+
+            <div class="container">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere harum perspiciatis quidem rerum maiores temporibus. Quae, illum aut asperiores sit dolore perspiciatis unde enim eaque est dolores laboriosam molestiae suscipit? Quo id architecto labore hic. Modi, pariatur quidem illo laborum totam architecto quis ducimus eaque maiores aliquam, sapiente sunt commodi.
+            </p>
+
+            </div>
+            
+        </div>
 
     </div>
+
     <footer >
         <p class="foot" >Copyright &copy; 2024 SLS - Space Launch System</p>
         
@@ -153,7 +193,7 @@
     
     <script>
         console.log("Hello Space Launch System - SLS");
-        document.write("Hello Space Launch System");
+        document.write("Hello Space Launch System - This is not an official site; it is for educational purposes only.");
         document.getElementById("videoBtn").onclick = function() {
         // window.open yeni sekmede açar, window.location.href aynı sekmede açar
         window.open("https://youtube.com/shorts/xqIH1jFTrCc?si=55tvqbERClPb5kHf", "_blank");
@@ -162,168 +202,3 @@
     
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .header{
-            position: relative;
-            padding: 0px;
-            background-color: #35bcbf;
-            color: #fff;
-            padding: 20px;
-            box-shadow: 5px 2px 5px rgba(0,0,0,0.3);
-            border-radius: 10px;
-
-        }
-        .button{
-            display: flex;
-            justify-content: center;
-            position: absolute;
-            top:10px;
-            right:10px;
-            margin: 3px;
-            
-            border-radius: 5px;
-            background-color: #35bcbf;
-        }
-        .header:hover{
-            background-color: #35bcbf;
-            color: #fff;
-            padding: 20px;
-            box-shadow: 5px 2px 5px rgba(0,0,0,0.3);
-            transform: scale(1.02);
-            transition: transform .3s ease-out;
-        }
-        h1{
-            display: flex;
-            justify-content: center;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            border: 2px solid #fff;
-            width: 100%;
-            border-radius: 6px solid #fff;
-        }
-        h1:hover{
-            transform: scale(1.03);
-            transition: transform .3s ease-out;
-            background-color: #93e4c1;
-            color:#393e46;
-            cursor: pointer;
-        }
-        #videoBtn{
-            padding: 5px 10px;
-            font-size: 13px;
-            color: #fff;
-            background-color: #c50d66;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .PaddingBosluk{
-            display: flex; /* Yan yana dizilmeyi sağlar */
-            flex-wrap: wrap; 
-            justify-content: center;  /* Resimleri ortada toplar */
-            padding: 20px;
-            gap: 50px; 
-        }
-        .Photos{
-            height: auto;             
-            margin-top:10px;
-            margin-bottom: 10px;;
-            width: 100%;             /* Kapsayıcı ekranı tam kaplasın */
-            background-color: #EFE3CA;
-            border-radius: 10px;
-        }
-        .Photo img{
-            
-            width: 200px;
-            height: 150px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
-
-        }
-        .Photo img:hover{
-            transform: scale(1.06);
-            transition: transform .3s ease-out;
-            box-shadow: 0 12px 24px rgba(0,0,0,0.5); /* Hover olunca gölge derinleşir */
-        }
-        .NASA{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 10px;
-            
-        }
-        footer{
-            margin-top: 10px;;
-            text-align: center;
-            padding: 18px;
-            background-color: #35bcbf;
-            color: #fff;
-            border-radius: 10px;
-        }
-        .foot{
-            border-radius: 10px;
-        }
-    </style>
-</head>
-<body>
-    
-    <div>
-        <div class="header">
-            <h1>SLS - Space Launch System</h1>
-
-            <div class="button" style="text-align: center;">
-            <button id="videoBtn">Go to Lift-Off</button>
-
-            </div>
-
-        </div>
-
-        <br>
-        
-        <div class="Photos">
-            <div class="PaddingBosluk">
-
-                <div class="Photo">
-                    <img src="https://cdn.geekwire.com/wp-content/uploads/2022/08/220827-pad.jpg" alt="SLS-Rocket-1">
-                </div>
-
-                <div class="Photo">
-                    <img src="https://www.nasa.gov/wp-content/uploads/2022/11/artemisi111122.jpg" alt="SLS-Rocket-2">
-                </div>
-
-                <div class="Photo">
-                    <img src="https://gizmodo.com/app/uploads/2026/02/SLS-960x640.jpg" alt="SLS-Rocket-3">
-                </div>
-
-            </div>
-     
-        </div>
-
-    </div>
-    <footer >
-        <p class="foot" >Copyright &copy; 2024 SLS - Space Launch System</p>
-        
-    </footer>
-
-    <div class="NASA">
-        <img  src="NASA.jpg" width="100px" height="80px" alt="NASA Logo">
-    </div>
-    
-    <script>
-        console.log("Hello Space Launch System - SLS");
-        document.write("Hello Space Launch System");
-        document.getElementById("videoBtn").onclick = function() {
-        // window.open yeni sekmede açar, window.location.href aynı sekmede açar
-        window.open("https://youtube.com/shorts/xqIH1jFTrCc?si=55tvqbERClPb5kHf", "_blank");
-        };
-    </script>
-    
-</body>
-</html>
->>>>>>> f9598f8af8d168c497a0d4bc86dd6270ef765a05
